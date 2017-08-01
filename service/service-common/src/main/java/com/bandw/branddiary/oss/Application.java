@@ -1,4 +1,4 @@
-package com.bandw.branddiary.service.common;
+package com.bandw.branddiary.oss;
 
 import java.io.IOException;
 

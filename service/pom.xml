@@ -8,9 +8,7 @@
 		<artifactId>platform</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<groupId>com.bandw.branddiary</groupId>
 	<artifactId>service</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<name>Archetype - service</name>
 	<url>http://maven.apache.org</url>
 	<packaging>pom</packaging>
@@ -28,6 +26,15 @@
 		<java.version>1.8</java.version>
 		<joda.version>2.9.9</joda.version>
 	</properties>
+	
+	<dependencies>
+			<!-- common -->
+			<dependency>
+				<groupId>${parent.groupId}</groupId>
+				<artifactId>common</artifactId>
+				<version>${parent.version}</version>
+			</dependency>
+	</dependencies>
 
 	<dependencyManagement>
 		<dependencies>

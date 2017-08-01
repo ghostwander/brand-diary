@@ -55,3 +55,8 @@ Temporary Items
 .cache-tests
 target
 .DS_Store
+
+
+# idea project
+.idea/
+platform.iml

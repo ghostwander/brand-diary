@@ -1,4 +1,6 @@
-package com.bandw.branddiary.auth.model;
+package com.bandw.branddiary.oss.auth.model;
+
+import java.util.Date;
 
 public class AuthUser {
 	String userId;
@@ -8,4 +10,14 @@ public class AuthUser {
 	String identifier;
 	/**密码凭证（站内的保存密码，站外的不保存或保存token）*/
 	String credential;
+	/**自动登录用token*/
+	String token;
+	/**上次登录ip*/
+	String lastLoginIp;
+	/**上次登录时间*/
+	Date lastLoginTime;
+	/**注册ip*/
+	String registerIp;
+	/**注册时间*/
+	Date registerTime;
 }

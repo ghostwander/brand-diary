@@ -1,8 +1,8 @@
-package com.bandw.branddiary.auth.repository;
+package com.bandw.branddiary.oss.auth.repository;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 
-import com.bandw.branddiary.auth.model.AuthUser;
+import com.bandw.branddiary.oss.auth.model.AuthUser;
 
 public interface AuthUserRepository extends MongoRepository<AuthUser, Long> {
 

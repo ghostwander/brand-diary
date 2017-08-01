@@ -1,4 +1,4 @@
-package com.bandw.branddiary.user.model;
+package com.bandw.branddiary.oss.user.model;
 
 public class UserBinding {
 	String userId;

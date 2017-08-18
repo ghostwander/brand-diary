@@ -1,4 +1,4 @@
-package com.bandw.branddiary.oss.auth.model;
+package com.bandw.branddiary.oss.auth.entity;
 
 import java.util.Date;
 

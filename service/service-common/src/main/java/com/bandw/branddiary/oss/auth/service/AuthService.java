@@ -9,6 +9,13 @@ public interface AuthService {
 	 * @return 是否登录成功
 	 */
 	public boolean login(String identifier, String credential);
+
+	/**
+	 *
+	 * @param identitfier
+	 * @return 是否是正常用户
+	 */
+	public boolean isVaildUser(String identitfier);
 	
 	/**
 	 * 登出

@@ -5,14 +5,6 @@
     <artifactId>platform</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>api</artifactId>
+  <artifactId>core</artifactId>
   <packaging>jar</packaging>
-
-  <dependencies>
-    <dependency>
-      <groupId>${project.parent.groupId}</groupId>
-      <artifactId>core</artifactId>
-      <version>${project.parent.version}</version>
-    </dependency>
-  </dependencies>
 </project>

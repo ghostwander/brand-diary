@@ -5,5 +5,5 @@
     <artifactId>platform</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>common</artifactId>
+  <artifactId>core</artifactId>
 </project>

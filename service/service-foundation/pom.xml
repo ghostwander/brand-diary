@@ -6,11 +6,8 @@
 		<artifactId>service</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-<<<<<<< HEAD:service/service-foundation/pom.xml
+
 	<artifactId>service-foundation</artifactId>
-=======
-	<artifactId>service-common</artifactId>
->>>>>>> 1dd96beba2705d9adc9dd0128206948dfa673ddc:service/service-common/pom.xml
 	<packaging>jar</packaging>
 
 	<build>
@@ -28,7 +25,6 @@
 			<artifactId>core</artifactId>
 		</dependency>
 
-<<<<<<< HEAD:service/service-foundation/pom.xml
 		<!-- shiro -->
 		<dependency>
 			<groupId>org.apache.shiro</groupId>
@@ -39,8 +35,6 @@
 			<artifactId>shiro-web</artifactId>
 		</dependency>
 
-=======
->>>>>>> 1dd96beba2705d9adc9dd0128206948dfa673ddc:service/service-common/pom.xml
 		<!-- tools -->
 		<dependency>
 			<groupId>joda-time</groupId>

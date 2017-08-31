@@ -73,11 +73,7 @@
 			  <version>${joda.version}</version>
 			</dependency>
 
-<<<<<<< HEAD
 			<!-- shiro -->
-=======
-			<!--shiro-->
->>>>>>> 1dd96beba2705d9adc9dd0128206948dfa673ddc
 			<dependency>
 				<groupId>org.apache.shiro</groupId>
 				<artifactId>shiro-core</artifactId>

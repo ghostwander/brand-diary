@@ -52,9 +52,9 @@ Temporary Items
 .settings
 .cache-main
 .cache-test
-.cache-tests
+.cache-test
 target
 .DS_Store
 
 # idea
-service-brand.iml
+*.iml

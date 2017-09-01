@@ -1,10 +1,14 @@
-package com.bandw.branddiary.obs.foundation.common.shiro;
+package com.bandw.branddiary.obs.foundation.auth.shiro;
 
 import org.apache.shiro.authc.credential.CredentialsMatcher;
+import org.apache.shiro.spring.LifecycleBeanPostProcessor;
+import org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor;
 import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
+import org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
 
 import java.util.LinkedHashMap;
 
@@ -68,5 +72,5 @@ public class ShiroConfig {
         advisor.setSecurityManager(manager);
         return advisor;
     }
-    */
+*/
 }

@@ -22,4 +22,76 @@ public class AuthUser extends BaseEntity{
 	String registerIp;
 	/**注册时间*/
 	Date registerTime;
+
+	public String getUserId() {
+		return userId;
+	}
+
+	public void setUserId(String userId) {
+		this.userId = userId;
+	}
+
+	public String getIdentityType() {
+		return identityType;
+	}
+
+	public void setIdentityType(String identityType) {
+		this.identityType = identityType;
+	}
+
+	public String getIdentifier() {
+		return identifier;
+	}
+
+	public void setIdentifier(String identifier) {
+		this.identifier = identifier;
+	}
+
+	public String getCredential() {
+		return credential;
+	}
+
+	public void setCredential(String credential) {
+		this.credential = credential;
+	}
+
+	public String getToken() {
+		return token;
+	}
+
+	public void setToken(String token) {
+		this.token = token;
+	}
+
+	public String getLastLoginIp() {
+		return lastLoginIp;
+	}
+
+	public void setLastLoginIp(String lastLoginIp) {
+		this.lastLoginIp = lastLoginIp;
+	}
+
+	public Date getLastLoginTime() {
+		return lastLoginTime;
+	}
+
+	public void setLastLoginTime(Date lastLoginTime) {
+		this.lastLoginTime = lastLoginTime;
+	}
+
+	public String getRegisterIp() {
+		return registerIp;
+	}
+
+	public void setRegisterIp(String registerIp) {
+		this.registerIp = registerIp;
+	}
+
+	public Date getRegisterTime() {
+		return registerTime;
+	}
+
+	public void setRegisterTime(Date registerTime) {
+		this.registerTime = registerTime;
+	}
 }

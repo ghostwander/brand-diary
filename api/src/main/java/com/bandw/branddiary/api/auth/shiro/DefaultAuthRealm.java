@@ -1,7 +1,7 @@
-package com.bandw.branddiary.obs.foundation.auth.shiro;
+package com.bandw.branddiary.api.auth.shiro;
 
-import com.bandw.branddiary.obs.foundation.auth.entity.AuthUser;
-import com.bandw.branddiary.obs.foundation.auth.service.AuthService;
+import com.bandw.branddiary.api.auth.entity.AuthUser;
+import com.bandw.branddiary.api.auth.service.AuthService;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.realm.Realm;
 import org.apache.shiro.realm.AuthenticatingRealm;

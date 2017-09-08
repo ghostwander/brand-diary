@@ -1,4 +1,4 @@
-package com.bandw.branddiary.obs.foundation.auth.shiro;
+package com.bandw.branddiary.api.auth.shiro;
 
 import org.apache.shiro.authc.credential.CredentialsMatcher;
 import org.apache.shiro.mgt.DefaultSecurityManager;

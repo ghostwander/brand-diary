@@ -57,4 +57,4 @@ target
 .DS_Store
 
 # idea
-service-diary.iml
+*.iml

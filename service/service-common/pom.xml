@@ -10,10 +10,33 @@
 	<packaging>jar</packaging>
 
 	<build>
+		<resources>
+			<resource>
+				<directory>src/main/bin/${env}/</directory>
+				<targetPath>${project.build.directory}/bin</targetPath>
+				<filtering>true</filtering>
+				<includes>
+					<include>**.*</include>
+				</includes>
+			</resource>
+			<resource>
+				<directory>src/main/conf/${env}/</directory>
+				<targetPath>${project.build.directory}/conf</targetPath>
+				<filtering>true</filtering>
+				<includes>
+					<include>**.*</include>
+				</includes>
+			</resource>
+		</resources>
+
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+
+			<plugin>
+				<artifactId>maven-assembly-plugin</artifactId>
 			</plugin>
 		</plugins>
 	</build>
@@ -44,4 +67,32 @@
 
 	</dependencies>
 
+	<profiles>
+		<!-- develop environment -->
+		<profile>
+			<id>dev</id>
+			<properties>
+				<env>dev</env>
+			</properties>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+		</profile>
+
+		<!-- test environment -->
+		<profile>
+			<id>test</id>
+			<properties>
+				<env>test</env>
+			</properties>
+		</profile>
+
+		<!-- product environment -->
+		<profile>
+			<id>prod</id>
+			<properties>
+				<env>prod</env>
+			</properties>
+		</profile>
+	</profiles>
 </project>

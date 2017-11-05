@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
 
 
 /**
- * @author bandw
+ * @author bandwdevelop
  * date: 2017-05-25
  * 主程序
  */

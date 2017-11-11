@@ -28,9 +28,21 @@
 					<include>**.*</include>
 				</includes>
 			</resource>
+			<resource>
+				<directory>src/main/conf/${env}/</directory>
+				<targetPath>${project.build.directory}/classes/conf</targetPath>
+				<filtering>true</filtering>
+				<includes>
+					<include>**.*</include>
+				</includes>
+			</resource>
 		</resources>
 
 		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
